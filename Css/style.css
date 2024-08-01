@@ -196,6 +196,7 @@ img {
 #samdev-icon{
   height: 40px;
   width: 40px;
+  mix-blend-mode: darken;
 }
 
 .nav-logo,
