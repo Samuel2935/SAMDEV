@@ -198,8 +198,11 @@ img {
   width: 40px;
   mix-blend-mode: darken;
 }
-.home-blob-img{
-  /* mix-blend-mode: multiply; */
+
+
+#dev-icon{
+  mix-blend-mode: darken;
+
 }
 
 .nav-logo,
@@ -316,6 +319,7 @@ img {
 
 }
 
+
 .home-title {
   /* font-size: var(--big-font-size); */
   color: #713abe;
@@ -333,7 +337,7 @@ img {
 }
 
 .home-scroll {
-  /* display: none; */
+  display: none;
 }
 
 .home-scroll-button {
