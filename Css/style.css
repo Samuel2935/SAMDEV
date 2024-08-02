@@ -198,6 +198,9 @@ img {
   width: 40px;
   mix-blend-mode: darken;
 }
+.home-blob-img{
+  /* mix-blend-mode: multiply; */
+}
 
 .nav-logo,
 .nav-toggle {
