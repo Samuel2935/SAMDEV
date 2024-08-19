@@ -186,7 +186,6 @@ img {
 
 
 .nav-logo{
-  text-shadow:rgb(255, 153, 204) 3px 3px 20px, rgb(255, 153, 204) -2px 1px 30px;
   font-family:fantasy;
   
 }
@@ -323,7 +322,6 @@ img {
 .home-title {
   /* font-size: var(--big-font-size); */
   color: #713abe;
-  text-shadow:rgb(255, 153, 204) 3px 3px 20px, rgb(255, 153, 204) -2px 1px 30px;
   font-family:fantasy;
 }
 
