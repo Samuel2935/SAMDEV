@@ -417,6 +417,7 @@ img {
 .about-img {
   width: 200px;
   border: 0.5rem;
+  border-radius: 4px;
   justify-self: center;
   align-items: center;
   filter: drop-shadow(1px 1px 1px var(--first-color-lighter));
