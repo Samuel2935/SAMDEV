@@ -196,12 +196,12 @@ img {
 #samdev-icon{
   height: 40px;
   width: 40px;
-  mix-blend-mode: darken;
+  mix-blend-mode: normal;
 }
 
 
 #dev-icon{
-  mix-blend-mode: darken;
+  mix-blend-mode: normal;
 
 }
 
