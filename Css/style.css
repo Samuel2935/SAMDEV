@@ -196,7 +196,7 @@ img {
 #samdev-icon{
   height: 40px;
   width: 40px;
-  mix-blend-mode: normal;
+  mix-blend-mode: darken;
 }
 
 
