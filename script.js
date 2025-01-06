@@ -55,7 +55,7 @@ let box = function (boxClick) {
 };
 
 boxBtns.forEach((boxBtn, i) => {
-  boxBtn.addEventListener("click", () => {
+  boxBtn.addEventListener("click",() => {
     box(i);
   });
 });
