@@ -194,10 +194,10 @@ img {
   color: #713abe;
 }
 #samdev-icon{
-  height: 40px;
-  width: 40px;
-  padding: 5rem;
-  mix-blend-mode: darken;
+  height: 80px;
+  width: 80px;
+  padding: 5px;
+  /* mix-blend-mode: darken; */
 }
 
 
