@@ -197,7 +197,7 @@ img {
   height: 55px;
   width: 60px;
   padding: 5px;
-  mix-blend-mode: darken;
+  mix-blend-mode:lighten;
 }
 
 
