@@ -327,7 +327,7 @@ img {
 .home-title {
   /* font-size: var(--big-font-size); */
   color: #713abe;
-  font-family:fantasy;
+  /* font-family:fantasy; */
 }
 
 .home-subtitle {
