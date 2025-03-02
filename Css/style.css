@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 :root {
-  --header-height: 3rem;
+  --header-height: 5rem;
 
   --hue-color: 250;
 
@@ -194,12 +194,11 @@ img {
   color: #713abe;
 }
 #samdev-icon{
-  height: 50px;
-  width: 50px;
+  height: 5rem;
+  width: 5rem;
   padding: 5px;
   border: transparent;
   border-radius: 8px 16px 8px 16px;
-}
 
 
 #dev-icon{
