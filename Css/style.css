@@ -194,11 +194,13 @@ img {
   color: #713abe;
 }
 #samdev-icon{
-  height: 5rem;
-  width: 5rem;
+  height: 4rem;
+  width: 4rem;
   padding: 5px;
   border: transparent;
-  border-radius: 8px 16px 8px 16px;
+  border-radius: 50%;
+}
+
 
 
 #dev-icon{
