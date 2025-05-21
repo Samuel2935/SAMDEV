@@ -203,20 +203,20 @@
       </section>
       <section class="qualification section">
         <h2 class="section-title">PROFESSIONAL SUMMARY</h2>
-        <span class="section-subtitle">Education and Experience</span>
+        <span class="section-subtitle">Experience</span>
 
         <div class="qualification-container container">
           <div class="qualification-tabs">
-            <div
+            <!-- <div
               class="qualification-button button-flex qualification-active"
               data-target="#education"
             >
               <i class="fa-solid fa-graduation-cap qualification-icon"></i>
               Education
-            </div>
-            <div class="qualification-button button-flex" data-target="#work">
+            </div> -->
+            <div class="qualification-button button-flex" data-target="#education">
               <i class="fa-solid fa-briefcase qualification-icon"></i>
-              Works
+              Experience
             </div>
           </div>
 
@@ -226,16 +226,14 @@
               data-content
               id="education"
             >
-              <!-- qualifi 1 -->
-              <div class="qualification-data">
+          
+               <div class="qualification-data">
                 <div>
-                  <h3 class="qualification-title">Physics</h3>
-                  <span class="qualification-subtitle"
-                    >Benue State University, Makurdi</span
-                  >
+                  <h3 class="qualification-title">Frontend Engineer</h3>
+                  <span class="qualification-subtitle">Interswitch Group</span>
                   <div class="qualification-date">
                     <i class="fa-solid fa-calendar-days"></i>
-                    2014 - 2019
+                    2023 - 2024
                   </div>
                 </div>
                 <div>
@@ -245,7 +243,7 @@
               </div>
 
               <!-- qualifi 2 -->
-                             <div class="qualification-data">
+              <div class="qualification-data">
                 <div></div>
 
                 <div>
@@ -254,9 +252,7 @@
                 </div>
 
                 <div>
-                  <h3 class="qualification-title">
-                    Lead Engineer
-                  </h3>
+                  <h3 class="qualification-title">Lead Engineer</h3>
                   <span class="qualification-subtitle">NOVA Bank</span>
                   <div class="qualification-date">
                     <i class="fa-solid fa-calendar-days"></i>
@@ -274,10 +270,10 @@
                 </div>
 
                 <div>
-                  <h3 class="qualification-title">
-                    Full Stack Engineer
-                  </h3>
-                  <span class="qualification-subtitle">Calm Global Infotech</span>
+                  <h3 class="qualification-title">Full Stack Engineer</h3>
+                  <span class="qualification-subtitle"
+                    >Calm Global Infotech</span
+                  >
                   <div class="qualification-date">
                     <i class="fa-solid fa-calendar-days"></i>
                     2024 - present
@@ -289,8 +285,8 @@
 
               <div class="qualification-data">
                 <div>
-                  <h3 class="qualification-title">Frontend Engineer</h3>
-                  <span class="qualification-subtitle">Interswitch Group</span>
+                  <h3 class="qualification-title">Frontend Developer</h3>
+                  <span class="qualification-subtitle">INEED</span>
                   <div class="qualification-date">
                     <i class="fa-solid fa-calendar-days"></i>
                     2023 - 2024
@@ -303,7 +299,7 @@
               </div>
 
               <!-- qualifi 4 -->
-                  <div class="qualification-data">
+              <div class="qualification-data">
                 <div></div>
                 <div>
                   <span class="qualification-round"></span>
@@ -319,21 +315,6 @@
                 </div>
               </div>
 
-              <div class="qualification-data">
-                <div></div>
-                <div>
-                  <span class="qualification-round"></span>
-                  <!-- <span class="qualification-line"></span> -->
-                </div>
-                <div>
-                  <h3 class="qualification-title">Web Developer</h3>
-                  <span class="qualification-subtitle">Freelancer</span>
-                  <div class="qualification-date">
-                    <i class="fa-solid fa-calendar-days"></i>
-                    2019 - 2020
-                  </div>
-                </div>
-              </div>
             </div>
 
             <!-- qualific content 2  -->
@@ -373,7 +354,9 @@
 
       <section class="services section" id="services">
         <h2 class="section-title">TECHNICAL SOLUTIONS</h2>
-        <span class="section-subtitle">These are some of the services we render effectively.</span>
+        <span class="section-subtitle"
+          >These are some of the services we render effectively.</span
+        >
 
         <div class="services-container container grid">
           <!-- service 1  -->
@@ -669,13 +652,13 @@
 
       <!-- portfolio -->
       <section class="portfolio section" id="portfolio">
-       <div class=" project-section">
-         <h2 class="section-title">LIVE APPLICATIONS & WEBSITES</h2>
-        <span class="section-subtitle truncate"
-          >These are some of the most important projects I have been able to
-          develop individually and as a team member.</span
-        >
-       </div>
+        <div class="project-section">
+          <h2 class="section-title">LIVE APPLICATIONS & WEBSITES</h2>
+          <span class="section-subtitle truncate"
+            >These are some of the most important projects I have been able to
+            develop individually and as a team member.</span
+          >
+        </div>
 
         <div class="portfolio-container container swiper-container">
           <div class="swiper-wrapper">
@@ -711,6 +694,24 @@
                 </p>
                 <a
                   href="https://account-management-system.vercel.app/"
+                  target="_blank"
+                  class="button button-flex button-small portfolio-button"
+                  >Project Link
+                  <i class="fa-solid fa-arrow-right button-icon"></i
+                ></a>
+              </div>
+            </div>
+            <!-- neflix -->
+                    <div class="portfolio-content grid swiper-slide">
+              <img src="Assets/Icons/neflix.png" alt="" class="portfolio-img" />
+
+              <div class="portfolio-data">
+                <h3 class="portfolio-title">NEFLIX Cloned App</h3>
+                <p class="portfolio-description">
+                  A cloned Neflix App using React and MovieDB.
+                </p>
+                <a
+                  href="https://neflix-clone-drab.vercel.app/"
                   target="_blank"
                   class="button button-flex button-small portfolio-button"
                   >Project Link
@@ -944,8 +945,8 @@
                 >
               </div>
             </div>
-              <div class="contact-info">
-             <i class="fa-brands fa-square-whatsapp contact-icon"></i>
+            <div class="contact-info">
+              <i class="fa-brands fa-square-whatsapp contact-icon"></i>
               <div>
                 <h3 class="contact-title">WhatsApp</h3>
                 <a
