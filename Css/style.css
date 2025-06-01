@@ -138,7 +138,7 @@ img {
 
 .section-title {
   font-size: var(--h2-font-size);
-  color: #713abe;
+    color: var(--first-color) !important;
  
 }
 
@@ -449,8 +449,8 @@ img {
   color: #713abe;
 }
 .about-section{
-  background-color: #713abe;
-  color: #f1f1f1;
+  /* background-color: #713abe; */
+  /* color: #f1f1f1; */
   margin-bottom: 1em;
 
 }
